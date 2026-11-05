@@ -25,6 +25,14 @@ Currently supports English transcription. Settings and text history are saved be
 
 The ready-to-run app includes PyTorch and NVIDIA GPU libraries, which account for almost all of its roughly **2.5 GB** download. Models aren't bundled. It's provided as two ZIPs to fit GitHub's per-file release limit.
 
-The **source download is only a few hundred KB**. If compatible dependencies are already installed in your Python environment, run `python STT_to_clipboard.py`. For setup or building, see [BUILDING.txt](BUILDING.txt).
+## Run the source
 
-[MIT License](LICENSE.txt) · [Third-party notices](THIRD_PARTY_NOTICES.txt)
+The source contains only the app, its icon and sound, dependencies list, and these docs. Use Windows and Python 3.10. If compatible dependencies are already installed, just run the last command:
+
+```powershell
+python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu126
+python -m pip install -r requirements.txt
+python STT_to_clipboard.py
+```
+
+[MIT License](LICENSE.txt)

@@ -42,11 +42,6 @@ CONFIG_FILE = os.path.join(APP_DIR, "stt_settings.json")
 MIN_WINDOW_WIDTH = 260
 MIN_WINDOW_HEIGHT = 38
 
-if __name__ == '__main__' and '--self-test' in sys.argv:
-    from package_check import run
-    raise SystemExit(run(RESOURCE_DIR))
-
-
 def resource_path(path):
     return path if os.path.isabs(path) else os.path.join(RESOURCE_DIR, path)
 
