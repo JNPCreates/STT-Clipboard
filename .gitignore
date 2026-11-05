@@ -1,0 +1,30 @@
+# Personal settings (generated on first run with defaults)
+.env
+.env.*
+_Archive/
+Ship_*/
+models/
+*.pt
+.venv/
+venv/
+desktop.ini
+stt_settings.json
+transcription_history.json
+.history-*.tmp
+.settings-*.tmp
+
+# Temp files from recording
+temp_recording.wav
+temp_chunk_*.wav
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Generated executable releases and build logs
+build/
+dist/

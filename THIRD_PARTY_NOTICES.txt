@@ -1,0 +1,17 @@
+STT Clipboard third-party components
+
+The application's MIT license covers this project's code. Bundled dependencies
+retain their own licenses. The executable distribution includes a licenses folder
+with notices collected from its installed packages and the Python runtime.
+
+Major components include Python/Tcl/Tk, OpenAI Whisper and model weights,
+PyTorch, NumPy, Numba/llvmlite, PyAudio/PortAudio, tiktoken, keyboard, pyperclip,
+and the PyInstaller bootloader. PyTorch's license includes notices for its bundled
+components. See each component's included notices for its terms.
+
+Whisper: https://github.com/openai/whisper
+PyTorch: https://github.com/pytorch/pytorch
+PyAudio/PortAudio: https://people.csail.mit.edu/hubert/pyaudio/
+PyInstaller: https://pyinstaller.org/
+
+Keep the licenses folder and these notices with copies of the executable release.
